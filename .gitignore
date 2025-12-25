@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+echo *.bin > .gitignore
+echo *.safetensors >> .gitignore
+echo models/ >> .gitignore
+echo rugpt3small_local/ >> .gitignore
